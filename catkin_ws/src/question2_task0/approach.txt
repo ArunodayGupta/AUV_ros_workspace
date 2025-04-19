@@ -1,0 +1,4 @@
+For the first node we define a function where we create a publisher and it prints a multiple of 2 at frequency of 1Hz.
+For the second node we create one publisher and one subscriber the subscriber is connected to the publisher of first node thorugh the chatter.
+It also has its publisher which takes the data recieved from first publisher and multiplies it by 10.
+For the third and the final node we make a subscriber which is connected to the publisher of the second node through the topic and it add 5 to the value it recieves and prints it as the final value.

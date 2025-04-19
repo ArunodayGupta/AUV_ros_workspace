@@ -1,0 +1,4 @@
+I crated a function chat and in that function there is a publisher and a subscriber connected to the same topic.
+I am taking the name of the user and the message the user wants to send to the other person.
+Then if the name of the user is different then the callback function will print the message sent by the other person in our terminal.
+this will continue until we terminate the loop

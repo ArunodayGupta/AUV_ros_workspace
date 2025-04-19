@@ -32,18 +32,22 @@ def turtle_controller():
         if command == "up":
             move_command.linear.y = distance 
             rospy.Subscriber('/turtle1/pose', Pose, update_position)
+            print("NORTH")
             print_position()
         elif command == "down":
             move_command.linear.y = -distance
             rospy.Subscriber('/turtle1/pose', Pose, update_position)
+            print("SOUTH")
             print_position()
         elif command == "right":
             move_command.linear.x = distance 
             rospy.Subscriber('/turtle1/pose', Pose, update_position)
+            print("EAST")
             print_position()
         elif command == "left":
             move_command.linear.x = -distance
             rospy.Subscriber('/turtle1/pose', Pose, update_position)
+            print("WEST")
             print_position()
         else:
             print("Invalid command")

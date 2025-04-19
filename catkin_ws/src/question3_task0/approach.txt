@@ -1,0 +1,5 @@
+In the turtle controller we are making a publisher and the receiever is turtlesim_node.
+In this we are taking the direction from the user in which we want to move the turtle and the distance.
+Now depending on the value given by the user we move the turtle and show its coordinates and where it is facing.
+This goes on until you terminate the function.
+(The coordinates are not working properly i couldn't understand it properly.)
